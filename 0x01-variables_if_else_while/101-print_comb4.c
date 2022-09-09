@@ -23,14 +23,13 @@ int main(void)
 
 					if (c != '7')
 					{
-
-                                       		putchar(',');
+						putchar(',');
 						putchar(' ');
 					}
 				}
 			}
 		}
 	}
-	utchar('\n');
+	putchar('\n');
 	return (0);
 }
