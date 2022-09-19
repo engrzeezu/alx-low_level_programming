@@ -9,9 +9,9 @@
  * On success: return no error
  */
 
-void print_line(int n)
+void _puts(char *str)
 {
-	int a = 0;
+	int i = 0;
 
 	while (*(str + i) != '\0')
 	{
