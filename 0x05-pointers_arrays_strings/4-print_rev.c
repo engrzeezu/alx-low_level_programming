@@ -4,7 +4,7 @@
 
 /**
 * print_rev - prints a string in reverse
-* @s: string to revers
+* @s: string to reverse
 * Return: Nothing
 */
 
