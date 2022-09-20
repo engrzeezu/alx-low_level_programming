@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * print_rev - Prints a string in reverse form
- * @s: The string to print in the revers form
- *
- * Return: void
- */
+  * print_rev - Prints a string in reverse form
+  * @s: The string to print in the revers form
+  *
+  * Return: void
+  */
 void print_rev(char *s)
 {
 	int c = 0;
@@ -20,5 +20,6 @@ void print_rev(char *s)
 	{
 		_putchar(s[c]);
 	}
+
 	_putchar('\n');
 }
